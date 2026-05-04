@@ -212,6 +212,12 @@ div[itemtype="http://schema.org/Article"] {
           margin: .5rem 0 0 .5rem;
         }
       }
+
+      .identifier-type ~ :is(&) span.token {
+        font-family: monospace;
+        overflow-wrap: break-word;
+        max-width: 100%;
+      }
     }
 
     h1 {
